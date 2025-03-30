@@ -1,0 +1,138 @@
+.hell{
+    font-style:italic;
+    border: 15px dotted aliceblue;
+}
+
+#h1{
+    font-style:italic;
+}
+.header{
+    background: linear-gradient(to right, #281483, #cd7fd8);
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    z-index: 10500;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+#Course Box{
+    border:2px dotted blue;
+}
+.course-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-around;
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
+    padding: 10px;
+}
+
+.course-card {
+    background: rgb(76, 107, 242);
+    border: 0.5cap outset #ddd;
+    box-sizing: border-box;
+    width: 200px;
+    height:150px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px ; 
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap; /* Prevent text from breaking */
+}
+.PHY115-card {
+    background: rgb(76, 107, 242);
+    border: 0.5cap outset #ddd;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px ; 
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: height 0.4s ease-out;
+    white-space: nowrap; /* Prevent text from breaking */
+}
+.collapse li{
+    background: rgb(200, 201, 204);
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px ;
+    width: 75%; 
+    color:rgb(17, 23, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap; /* Prevent text from breaking */
+}
+.collapse li a{
+    color: black;
+}
+.collapse {
+    transition: height 0.4s ease-out; /* Adjust duration and easing */
+}
+.submenu {
+    display: none;
+    overflow: hidden;
+}
+.darky {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.darky .header {
+    background: linear-gradient(to right, #1e1e1e, #3a3a3a);
+    color: white;
+}
+
+.darky nav ul li a {
+    color: #ddd;
+}
+
+.darky .course-card,
+.darky .PHY115-card {
+    background: #222;
+    border-color: #444;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.darky .collapse li {
+    background: #333;
+    color: #ddd;
+}
+
+.darky .collapse li a {
+    color: #bbb;
+}
+
+
+
