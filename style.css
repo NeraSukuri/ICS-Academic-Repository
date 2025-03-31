@@ -42,7 +42,7 @@ nav ul li a {
     font-size: 30px;
     font-weight: bold;
     justify-content: space-around;
-    overflow-x: auto; /* Enables horizontal scrolling if needed */
+    overflow-x: auto; 
     padding: 10px;
 }
 
@@ -61,7 +61,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    white-space: nowrap; /* Prevent text from breaking */
+    white-space: nowrap; 
 }
 .PHY115-card {
     background: rgb(76, 107, 242);
@@ -77,7 +77,7 @@ nav ul li a {
     justify-content: center;
     text-align: center;
     transition: height 0.4s ease-out;
-    white-space: nowrap; /* Prevent text from breaking */
+    white-space: nowrap; 
 }
 .collapse li{
     background: rgb(200, 201, 204);
@@ -92,13 +92,13 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    white-space: nowrap; /* Prevent text from breaking */
+    white-space: nowrap; 
 }
 .collapse li a{
     color: black;
 }
 .collapse {
-    transition: height 0.4s ease-out; /* Adjust duration and easing */
+    transition: height 0.4s ease-out; 
 }
 .submenu {
     display: none;
