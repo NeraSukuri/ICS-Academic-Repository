@@ -1,4 +1,5 @@
 #Academic Repository
+For Now CHM112 is only available
 
 Overview
 ICS - Academic Repository contains all the acaedmic resources offered by ICS-IITK to help the student to access course contents to glide through their first Year.
